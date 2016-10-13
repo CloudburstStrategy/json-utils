@@ -1,7 +1,18 @@
 Json Utils
 ===================
 
-Some Jackson based Json Utilities
+Standard Jackson Mapper that supports Java 8 and Dates/Times properly and some utilities
+
+
+## Usage
+
+    String json = JsonUtils.toJson(obj);
+    
+    MyType thing = JsonUtils.fromJson(json, MyType.class);
+    
+    String base64encodedString = JsonUtils.encode(json);
+    
+    MyType thing2 = JsonUtils.decode(base64encodedString, MyType.class);
 
 
 ## To Release new version to Bintray

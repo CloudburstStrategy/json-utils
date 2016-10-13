@@ -7,7 +7,11 @@ import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.datatype.jdk8.Jdk8Module;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 
-
+/**
+ * Default Jackson Mappers which handle Java 8 stuff nicely
+ *
+ *
+ */
 public class JsonMapper {
 
     public static ObjectMapper prettyPrintMapper() {
