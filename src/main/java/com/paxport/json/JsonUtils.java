@@ -1,6 +1,7 @@
 package com.paxport.json;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import java.io.IOException;
@@ -53,6 +54,14 @@ public class JsonUtils {
         }
     }
 
+    public static <E> E fromJson (String json, TypeReference<E> targetType) {
+        try {
+            return mapper.readValue(json,targetType);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
     /**
      * Convert to Json and encode the resulting UTF-8 bytes as a Base64 string
      * @param obj
@@ -78,6 +87,16 @@ public class JsonUtils {
      * @return
      */
     public static <E> E decode(String base64encoded, Class<E> target) {
+        try {
+            byte[] bytes = Base64.getDecoder().decode(base64encoded);
+            String json = new String(bytes, "UTF-8");
+            return mapper.readValue(json,target);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public static <E> E decode(String base64encoded, TypeReference<E> target) {
         try {
             byte[] bytes = Base64.getDecoder().decode(base64encoded);
             String json = new String(bytes, "UTF-8");
