@@ -1,6 +1,6 @@
 Json Utils
 ===================
-![Travis Status](https://api.travis-ci.org/paxport/json-utils.svg?branch=master)
+![[Status}(https://travis-ci.org/paxport/json-utils)](https://api.travis-ci.org/paxport/json-utils.svg?branch=master)
 
 Standard Jackson Mapper that supports Java 8 and Dates/Times properly and some utilities
 
