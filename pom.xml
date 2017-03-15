@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.paxport</groupId>
+    <groupId>com.cloudburst</groupId>
     <artifactId>json-utils</artifactId>
     <version>1.0.5-SNAPSHOT</version>
     <packaging>jar</packaging>
@@ -22,9 +22,9 @@
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
-            <id>paxport-maven</id>
-            <name>paxport-maven</name>
-            <url>http://paxportuk.bintray.com/maven</url>
+            <id>bintray-cloudburst-maven</id>
+            <name>bintray</name>
+            <url>http://dl.bintray.com/cloudburst/maven</url>
         </repository>
     </repositories>
 
@@ -143,16 +143,16 @@
 
     <distributionManagement>
         <repository>
-            <id>bintray-paxportuk-maven</id>
-            <name>paxportuk-maven</name>
-            <url>https://api.bintray.com/maven/paxportuk/maven/com.paxport.json-utils/;publish=1</url>
+            <id>bintray-cloudburst-maven</id>
+            <name>bintray</name>
+            <url>https://api.bintray.com/maven/cloudburst/maven/com.cloudburst.json-utils/;publish=1</url>
         </repository>
     </distributionManagement>
 
     <scm>
-        <connection>scm:git:https://github.com/paxport/simple-pubsub.git</connection>
-        <developerConnection>scm:git:git@github.com:paxport/json-utils.git</developerConnection>
-        <url>https://github.com/paxport/simple-pubsub.git</url>
+        <connection>scm:git:https://github.com/CloudburstStrategy/json-utils.git</connection>
+        <developerConnection>scm:git:git@github.com:CloudburstStrategy/json-utils.git</developerConnection>
+        <url>https://github.com/CloudburstStrategy/json-utils.git</url>
         <tag>HEAD</tag>
     </scm>
 

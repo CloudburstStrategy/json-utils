@@ -1,6 +1,6 @@
-package com.paxport.json;
+package com.cloudburst.json;
 
-import com.paxport.json.examples.ExampleItem;
+import com.cloudburst.json.examples.ExampleItem;
 import com.paxport.json.examples.ImmutableExampleItem;
 
 import org.junit.Assert;

@@ -1,6 +1,6 @@
 Json Utils
 ==========
-<a href="https://travis-ci.org/paxport/json-utils" target="_blank"><img src="https://api.travis-ci.org/paxport/json-utils.svg?branch=master"/></a>
+<a href="https://travis-ci.org/CloudburstStrategy/json-utils" target="_blank"><img src="https://api.travis-ci.org/CloudburstStrategy/json-utils.svg?branch=master"/></a>
 
 Standard Jackson Mapper that supports Java 8 and Dates/Times properly and some utilities
 

@@ -1,4 +1,4 @@
-package com.paxport.json.ser;
+package com.cloudburst.json.ser;
 
 import com.fasterxml.jackson.core.JsonGenerator;
 import com.fasterxml.jackson.core.JsonProcessingException;

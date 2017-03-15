@@ -1,8 +1,8 @@
-package com.paxport.json.examples;
+package com.cloudburst.json.examples;
 
+import com.cloudburst.json.ser.MoneySerializer;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
-import com.paxport.json.ser.MoneySerializer;
 
 import org.immutables.serial.Serial;
 import org.immutables.value.Value;
