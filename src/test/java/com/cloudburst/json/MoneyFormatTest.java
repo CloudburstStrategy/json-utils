@@ -1,7 +1,7 @@
 package com.cloudburst.json;
 
 import com.cloudburst.json.examples.ExampleItem;
-import com.paxport.json.examples.ImmutableExampleItem;
+import com.cloudburst.json.examples.ImmutableExampleItem;
 
 import org.junit.Assert;
 import org.junit.Test;

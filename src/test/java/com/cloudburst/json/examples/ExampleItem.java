@@ -1,7 +1,6 @@
 package com.cloudburst.json.examples;
 
 import com.cloudburst.json.ser.MoneySerializer;
-import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 
 import org.immutables.serial.Serial;
@@ -11,8 +10,6 @@ import java.math.BigDecimal;
 
 @Value.Immutable
 @Serial.Structural
-@JsonSerialize(as = ImmutableExampleItem.class)
-@JsonDeserialize(as = ImmutableExampleItem.class)
 public abstract class ExampleItem {
 
     @Value.Parameter
