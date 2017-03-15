@@ -4,6 +4,7 @@ Json Utils
 
 Standard Jackson Mapper that supports Java 8 and Dates/Times properly and some utilities
 
+
 ## Usage
 
     String json = JsonUtils.toJson(obj);
