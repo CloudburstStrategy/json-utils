@@ -4,7 +4,7 @@
 
     <groupId>com.cloudburst</groupId>
     <artifactId>json-utils</artifactId>
-    <version>1.0.5-SNAPSHOT</version>
+    <version>1.0.5</version>
     <packaging>jar</packaging>
 
     <properties>
@@ -153,7 +153,7 @@
         <connection>scm:git:https://github.com/CloudburstStrategy/json-utils.git</connection>
         <developerConnection>scm:git:git@github.com:CloudburstStrategy/json-utils.git</developerConnection>
         <url>https://github.com/CloudburstStrategy/json-utils.git</url>
-        <tag>HEAD</tag>
+        <tag>json-utils-1.0.5</tag>
     </scm>
 
 </project>
