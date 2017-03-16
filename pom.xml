@@ -144,8 +144,8 @@
     <distributionManagement>
         <repository>
             <id>bintray-cloudburst-maven</id>
-            <name>bintray</name>
-            <url>https://api.bintray.com/maven/cloudburst/maven/com.cloudburst/;publish=1</url>
+            <name>cloudburst-maven</name>
+            <url>https://api.bintray.com/maven/cloudburst/maven/com.cloudburst.json-utils/;publish=1</url>
         </repository>
     </distributionManagement>
 
